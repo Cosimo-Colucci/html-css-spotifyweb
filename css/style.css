@@ -49,11 +49,6 @@ section.player{
     position: absolute;
     bottom: 0;
 }
-div.button{
-    background-color: #080b12;
-    height: 100px;
-    width: 100%;
-}
 
 /*inner navbar*/
 div.logo{
@@ -80,7 +75,17 @@ div.lower-nav{
 
 
 
-/*inner size of content*/
+/*inner content*/
+div.button{
+    background-color: #080b12;
+    height: 100px;
+    width: 100%;
+}
+div.content-menù{
+    height: 70px;
+    width: 100%;
+    background-color: cadetblue;
+}
 div.title{
     height: 50px;
     border: 2px solid blue;
