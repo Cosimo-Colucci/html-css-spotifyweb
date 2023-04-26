@@ -10,3 +10,31 @@
     display: table;
     clear: both;
 }
+
+/*main section of viewport size*/
+nav{
+    float: left;
+    width: 170px;
+    height: calc(100vh - 100px);
+    background-color: #000000;
+}
+
+section.content{
+    float: left;
+    background-color: #141922;
+    width: calc(100vw - 170px);
+    height: calc(100vh - 100px);
+}
+section.player{
+    background-color: #282828;
+    height: 100px;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+}
+div.button{
+    background-color: #080b12;
+    height: 100px;
+    width: 100%;
+}
