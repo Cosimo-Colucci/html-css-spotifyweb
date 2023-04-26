@@ -11,6 +11,16 @@
     clear: both;
 }
 
+
+/*general istruction*/
+.flex{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+
 /*main section of viewport size*/
 nav{
     float: left;
@@ -37,6 +47,20 @@ div.button{
     background-color: #080b12;
     height: 100px;
     width: 100%;
+}
+
+
+/*inner size of content*/
+div.title{
+    height: 50px;
+    border: 2px solid blue;
+
+}
+div.cover{
+    height: 200px;
+    width: calc(100% / 6);
+    border: 1px solid red;
+    padding: .5rem
 }
 
 
