@@ -34,6 +34,7 @@ section.content{
     background-color: #141922;
     width: calc(100vw - 170px);
     height: calc(100vh - 100px);
+    overflow-y: scroll;
 }
 section.player{
     background-color: #282828;
