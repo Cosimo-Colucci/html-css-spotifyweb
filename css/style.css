@@ -19,7 +19,12 @@
 .wrap{
     flex-wrap: wrap;
 }
-
+.col{
+    flex-direction: column;
+}
+.between{
+    justify-content: space-between;
+}
 
 /*main section of viewport size*/
 nav{
@@ -50,6 +55,30 @@ div.button{
     width: 100%;
 }
 
+/*inner navbar*/
+div.logo{
+    height: 75px;
+    width: 100%;
+    background-color: yellow;
+}
+div.menù{
+    height: 110px;
+    width: 100%;
+    background-color: rgb(133, 133, 34);
+
+}
+div.playlist-menù{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(116, 116, 72);
+}
+div.lower-nav{
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+}
+
+
 
 /*inner size of content*/
 div.title{
@@ -78,17 +107,21 @@ div.cover{
 
 /*media query mobile size*/
 @media screen and (max-width: 552px) {
-  nav {
-    width: 50px;
-  }
+    nav {
+        width: 50px;
+    }
 
-  section.content{
-    width: calc(100vw - 50px);
-  }
+    section.content{
+        width: calc(100vw - 50px);
+    }
 
-  div.cover{
-        width: calc(100% / 2);
-        padding: 1rem;
+    div.cover{
+            width: calc(100% / 2);
+            padding: 1rem;
+    }
+
+    div.playlist-menù{
+        display: none;
     }
 }
 
