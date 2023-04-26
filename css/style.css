@@ -38,3 +38,15 @@ div.button{
     height: 100px;
     width: 100%;
 }
+
+
+/*media query mobile size*/
+@media screen and (max-width: 552px) {
+  nav {
+    width: 50px;
+  }
+
+  section.content{
+    width: calc(100vw - 50px);
+  }
+}
