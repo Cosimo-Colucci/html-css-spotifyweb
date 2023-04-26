@@ -64,6 +64,17 @@ div.cover{
 }
 
 
+
+
+
+/*media query tablet size*/
+@media screen and (max-width: 878px) {
+    div.cover{
+        width: calc(100% / 4);
+    }
+}
+
+
 /*media query mobile size*/
 @media screen and (max-width: 552px) {
   nav {
@@ -73,12 +84,11 @@ div.cover{
   section.content{
     width: calc(100vw - 50px);
   }
-}
 
-
-/*media query tablet size*/
-@media screen and (max-width: 878px) {
-    div.cover{
-        width: calc(100% / 4);
+  div.cover{
+        width: calc(100% / 2);
+        padding: 1rem;
     }
 }
+
+
