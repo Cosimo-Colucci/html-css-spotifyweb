@@ -93,7 +93,18 @@ div.cover{
     padding: .5rem
 }
 
-
+/*inner player*/
+div.mutimedial-info,
+div.mutimedial-setting {
+    width: 170px;
+    height: 100px;
+    background-color: beige;
+}
+div.mutimedial-action {
+    width: 340px;
+    height: 100px;
+    background-color: aliceblue;
+}
 
 
 
