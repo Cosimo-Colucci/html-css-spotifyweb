@@ -97,6 +97,9 @@ div.cover{
     border: 1px solid red;
     padding: .5rem
 }
+div.cover img {
+    width: 100%;
+}
 
 /*inner player*/
 div.mutimedial-info,
