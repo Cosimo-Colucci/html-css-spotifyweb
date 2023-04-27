@@ -25,13 +25,18 @@
 .between{
     justify-content: space-between;
 }
+.center {
+    justify-content: center;
+}
 .t-center{
     text-align: center;
 }
 .t-white{
     color: white;
 }
-
+.no-style {
+    list-style-type: none;
+}
 
 
 /*main section of viewport size*/
@@ -90,10 +95,15 @@ div.button{
     width: 100%;
 }
 div.content-menù{
-    height: 70px;
-    width: 100%;
-    background-color: cadetblue;
+    width: 80%;
+    margin: 0 auto;
+    color: #6b6e73;
 }
+div.content-menù ul li {
+    margin: .4rem;
+}
+
+
 div.title{
     height: 50px;
     border: 2px solid blue;
