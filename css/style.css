@@ -25,6 +25,14 @@
 .between{
     justify-content: space-between;
 }
+.t-center{
+    text-align: center;
+}
+.t-white{
+    color: white;
+}
+
+
 
 /*main section of viewport size*/
 nav{
@@ -92,16 +100,19 @@ div.title{
 
 }
 div.cover{
-    height: 200px;
     width: calc(100% / 6);
     border: 1px solid red;
-    padding: .5rem
+    padding: .5rem;
+    text-align: center;
 }
 div.cover img {
     width: 100%;
 }
 div.circle img {
     border-radius: 50%;
+}
+sub {
+    color: #6b6e73;
 }
 
 /*inner player*/
