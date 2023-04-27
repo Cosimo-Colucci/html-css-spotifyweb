@@ -65,9 +65,8 @@ section.player{
 
 /*inner navbar*/
 div.logo{
-    height: 75px;
-    width: 100%;
-    background-color: yellow;
+    width: 75%;
+    padding: 1rem;
 }
 div.menù{
     height: 110px;
